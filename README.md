@@ -4,16 +4,16 @@ Handles caught exceptions, uncaught exceptions and php errors in a single method
 
 # Installation
 
-1. Enable hooks on application/config/config.php ``$config['enable_hooks'] = TRUE``
-2. **ATENTION**: If you are using Hooks add content from config/hooks.php to your file.
-3. Copy all files to your project.
+1. In your application enable hooks on application/config/config.php ``$config['enable_hooks'] = TRUE``
+2. **ATENTION**: If you are using Hooks add content from dist/application/config/hooks.php to your file.
+3. Copy all files from dist folder to your project.
 4. Update config/custom_exception.php with your preferences.
 5. Access <your_app_url>/exception_tests to test.
 
 
 # Exceptions TABLE
 
-- Run **custom_exception.sql** in your database. If you change table's name remember to update the config/custom_exception.php.
+- Run **dist/sql/custom_exception.sql** in your database. If you change table's name remember to update the config/custom_exception.php.
  
 
 # Usage

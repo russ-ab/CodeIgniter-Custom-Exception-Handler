@@ -1,20 +1,5 @@
 # User-specific stuff:
 .idea/
 
-# CodeIgniter
-application/**/
-system/**/
-.htaccess
-index.php
-
-# Protect project files
-!/application/config/custom_exception.php
-!/application/config/hooks.php
-!/application/controllers/Exception_tests.php
-!/application/core/MY_Exceptions.php
-!/application/hooks/ExceptionHook.php
-!/application/libraries/Custom_Exception.php
-!/application/views/exception_tests_view.php
-!/.gitignore
-!/custom_exception.sql
-!/README.md
+# NPM
+/node_modules/
